@@ -3,9 +3,12 @@
     padding: 0;
 }
 
+body{
+    font-family: "Poppins", sans-serif;
+}
 .cabecalho{
     background-color: gray;
-    color: white;
+    color:white;
     display:flex ;
     justify-content: space-around;
     align-items: center;
@@ -20,4 +23,27 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.santos{
+    background-image: linear-gradient(gray,black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.jogador-image{
+    width: 25%;
+    
+}
+.santos-texto-dois{
+   display: flex;
+}
+
+.santos-div-conteudo{
+    width: 35%;
+}
+.santos-titulo{
+    padding: 24px 0;
 }
